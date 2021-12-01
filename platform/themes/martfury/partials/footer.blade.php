@@ -5,7 +5,7 @@
                     <h4 class="widget-title">{{ __('Contact us') }}</h4>
                     <div class="widget_content">
                         @if (theme_option('hotline'))
-                            <p>{{ __('Call us 24/7') }}</p>
+                            <p>{{ __('Call us now at') }}</p>
                             <h3>{{ theme_option('hotline') }}</h3>
                         @endif
                         <p>{{ theme_option('address') }} <br><a href="mailto:{{ theme_option('email') }}">{{ theme_option('email') }}</a></p>
