@@ -3398,7 +3398,7 @@ textarea.form-control {
 @media (min-width: 1200px) {
     .mega-menu {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: column nowrap;
         justify-content: space-between;
         min-width: 460px;
         padding: 20px;

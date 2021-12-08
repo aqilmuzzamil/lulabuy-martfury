@@ -110,7 +110,7 @@
 
 .mega-menu {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: space-between;
     padding: 15px 30px 10px;
     background-color: #fff;
@@ -431,7 +431,7 @@
 
     .mega-menu {
         display: none;
-        @include flex-flow(row wrap);
+        @include flex-flow(column wrap);
         max-width: 100%;
         padding-left: 15px;
         @include transition(all 0s ease);
